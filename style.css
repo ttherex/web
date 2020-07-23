@@ -1,0 +1,12 @@
+li {
+    color: blue;
+}
+
+body ul li:nth-child(2) ul{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+
+
