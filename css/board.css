@@ -1,0 +1,29 @@
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    float: left;
+
+}
+
+.visas {
+    width: 700px;
+}
+
+.div1:nth-of-type(4n+2) {
+    background: deepskyblue;
+}
+
+.div1:nth-of-type(4n+4){
+    background: aquamarine;
+}
+
+.div1:nth-of-type(2n+16){
+    background: pink;
+}
+
+.div1:nth-of-type(2n+1){
+    background: grey;
+}
